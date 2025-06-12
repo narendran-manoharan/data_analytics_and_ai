@@ -1,0 +1,18 @@
+2. Given the following list of numbers:
+
+[1, 10, 40, 23, 19, 42, 12, 18, 17, 21, 8, 2]
+
+Write a function which takes a number as a parameter, and checks if the
+list contains two numbers which add up to that number. If there are, return the two numbers.
+If not, return None. For example:
+
+
+
+check_list(54)
+-> returns [42, 12]
+
+check_list(31)
+-> returns [10, 21]
+
+check_list(1000)
+-> returns None
